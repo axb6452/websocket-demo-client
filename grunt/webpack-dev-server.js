@@ -17,6 +17,8 @@ webpackConfig.module.loaders.push({
 module.exports = {
   options: {
     port,
+    host: '10.1.7.118',
+    open: true,
     inline: true, // reload on change
     webpack: webpackConfig,
     publicPath: '/public/'
